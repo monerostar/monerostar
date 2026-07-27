@@ -16,6 +16,15 @@ I contribute with small, verified changes — docs, Windows realism, operator UX
 
 ---
 
+#### Own projects
+
+| Repo | What |
+|------|------|
+| [monero-fleet-console](https://github.com/monerostar/monero-fleet-console) | Read-only Hive + HashVault + monerod fleet status (CLI + HTML) |
+| [hermes-windows-lab](https://github.com/monerostar/hermes-windows-lab) | Hermes-on-Windows learning docs + multi-profile stack map |
+
+---
+
 #### Selected contributions
 
 **Monero**
