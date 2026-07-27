@@ -1,4 +1,4 @@
-### hey — I'm monerostar
+### he I'm monerostar
 
 Privacy-minded operator focused on **Monero**, calm **systems work**, and **agent tooling** (especially [Hermes](https://github.com/NousResearch/hermes-agent) on real machines).
 
