@@ -2,7 +2,7 @@
 
 Privacy-minded operator focused on **Monero**, calm **systems work**, and **agent tooling** (especially [Hermes](https://github.com/NousResearch/hermes-agent) on real machines).
 
-I contribute with small, verified changes — docs, Windows realism, operator UX — not drive-by noise.
+I contribute with small, verified changes docs, Windows realism, operator UX not drive-by noise.
 
 ---
 
