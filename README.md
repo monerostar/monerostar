@@ -2,7 +2,7 @@
 
 Privacy-minded operator focused on **Monero**, calm **systems work**, and **agent tooling** (especially [Hermes](https://github.com/NousResearch/hermes-agent) on real machines).
 
-I contribute with small, verified changes — docs, Windows realism, operator UX — not drive-by noise.
+I contribute with small, verified changes — docs, Windows + Linux operator realism, UX — not drive-by noise.
 
 ---
 
@@ -28,20 +28,22 @@ I contribute with small, verified changes — docs, Windows realism, operator UX
 #### Selected contributions
 
 **Monero**
+- [monero-docs#374](https://github.com/monero-project/monero-docs/pull/374) / [monero-site#2693](https://github.com/monero-project/monero-site/pull/2693) — payment proofs do not imply spendable funds
+- [monero-docs#372](https://github.com/monero-project/monero-docs/pull/372) — document `socks5://` proxy syntax for monerod and wallet-rpc
 - [monero-docs#371](https://github.com/monero-project/monero-docs/pull/371) — wallet-rpc address book + integrated payment IDs
 - [monero-docs#370](https://github.com/monero-project/monero-docs/pull/370) — clarify `get_transfers` pending vs pool
-- [monero-docs#367](https://github.com/monero-project/monero-docs/pull/367) — replace dead CryptoNote CNS008 links
+- [monero-docs#367](https://github.com/monero-project/monero-docs/pull/367) — replace dead CryptoNote CNS008 links *(merged)*
 - [monero-site#2692](https://github.com/monero-project/monero-site/pull/2692) — fix broken Trezor usage link on downloads
 - [monero#10975](https://github.com/monero-project/monero/pull/10975) — Windows stack-trace steps in README
 - [monero#10976](https://github.com/monero-project/monero/pull/10976) / [#10984](https://github.com/monero-project/monero/pull/10984) — restore-date / device UX: path review (no competing PR)
-- [monero#10953](https://github.com/monero-project/monero/pull/10953) — Windows mining-crash PR: live verify + review comment
 
 **Hermes (NousResearch)**
 - [hermes-agent#71609](https://github.com/NousResearch/hermes-agent/pull/71609) — honor `inherit_mcp_toolsets=false` on full parent inherit
+- [hermes-agent#72010](https://github.com/NousResearch/hermes-agent/pull/72010) — treat path literals as opaque (no segment respelling)
 - [hermes-agent#71591](https://github.com/NousResearch/hermes-agent/pull/71591) — make canonical `run_tests.sh` work on native Windows
 - [hermes-agent#71590](https://github.com/NousResearch/hermes-agent/pull/71590) — computer-use: surface CLI `--version` when health_report lies
-- [hermes-agent#72010](https://github.com/NousResearch/hermes-agent/pull/72010) — treat path literals as opaque (no segment respelling)
 - [hermes-agent#72664](https://github.com/NousResearch/hermes-agent/issues/72664) — multi-profile Telegram ops: evidence issue (no competing PR)
+- Live verify habit: native **Win11** and **Ubuntu/Linux** evidence reviews on open PRs (path guards, Py3.14 pools, install/Desktop footguns) — search first, no competing duplicates
 
 *(PR/issue states change — open the links for current status.)*
 
@@ -52,7 +54,7 @@ I contribute with small, verified changes — docs, Windows realism, operator UX
 1. **Read the issue / PR first** — plain English, no assumptions  
 2. **Search before coding** — avoid competing or duplicate PRs  
 3. **One logical change** — easy to review, easy to revert  
-4. **Verify on real hardware when it matters** — especially Windows  
+4. **Verify on real hardware when it matters** — Windows and Linux  
 5. **Quality over green squares**
 
 ---
